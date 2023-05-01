@@ -1,0 +1,138 @@
+cable template mac-domain MD_24D2_6U1
+ ds-primary-set           0,4,8,12,16,20
+ ds-non-primary-set       1-3,5-7,9-11,13-15,17-19,21-23
+ us-phy-channel-set       0-5
+ admin-state              up
+ bundle                   1
+ eae                      ranging
+ ip-provisioning-mode     ipv4-only
+ map-advance static
+ map-advance extra-usec 100
+ mdf                      enabled
+ source-verify            disabled
+ ucd-interval-msec        1
+ up-down-trap             enabled
+ us-frequency-range       extended
+ no shared-secret
+ ds-ofdm-non-primary-set  0-1
+ us-ofdma-set             0
+ controller dynamic-us-mod-prof-hopping admin-state up
+ controller dynamic-us-mod-prof-hopping algorithm-calculate-period-sec 10
+ controller dynamic-us-mod-prof-hopping readings-measurement-period-sec 10
+ controller dynamic-us-mod-prof-hopping hysteresis-db 4.0
+ controller dynamic-us-mod-prof-hopping last-measurement-down-weight 100
+ controller dynamic-us-mod-prof-hopping last-measurement-up-weight 1
+ ds-dynamic-bonding-group disabled
+ us-dynamic-bonding-group disabled
+ dbc-ds-partial-recovery disabled
+ dbc-ds-partial-recovery reset-cm-on-dbc-timeout disabled
+ dbc-ds-partial-recovery retry-period-sec 600
+ dbc-ds-partial-recovery holdoff-interval-sec 600
+ dbc-us-partial-recovery disabled
+ dbc-us-partial-recovery retry-period-sec 600
+ ds-bonding-group D10A
+  admin-state           up
+  down-channel-set      16-23
+  provisioned-attr-mask bonded,operator-16,operator-19,operator-20,operator-21
+  ofdm-channel-set      0-1
+ !
+ ds-bonding-group D16A
+  admin-state           up
+  down-channel-set      0-15
+  provisioned-attr-mask bonded,operator-16,operator-17,operator-18
+ !
+ ds-bonding-group D16B
+  admin-state           up
+  down-channel-set      8-23
+  provisioned-attr-mask bonded,operator-16,operator-18,operator-19
+ !
+ ds-bonding-group D16C
+  admin-state           up
+  down-channel-set      0-7,16-23
+  provisioned-attr-mask bonded,operator-16,operator-17,operator-19
+ !
+ ds-bonding-group D24A
+  admin-state           up
+  down-channel-set      0-23
+  provisioned-attr-mask bonded,operator-16,operator-17,operator-18,operator-19
+ !
+ ds-bonding-group D25A
+  admin-state           up
+  down-channel-set      0-23
+  provisioned-attr-mask bonded,operator-16,operator-17,operator-18,operator-19,operator-20
+  ofdm-channel-set      0
+ !
+ ds-bonding-group D25B
+  admin-state           up
+  down-channel-set      0-23
+  provisioned-attr-mask bonded,operator-16,operator-17,operator-18,operator-19,operator-21
+  ofdm-channel-set      1
+ !
+ ds-bonding-group D26A
+  admin-state           up
+  down-channel-set      0-23
+  provisioned-attr-mask bonded,operator-16,operator-17,operator-18,operator-19,operator-20,operator-21
+  ofdm-channel-set      0-1
+ !
+ ds-bonding-group D8A
+  admin-state           up
+  down-channel-set      0-7
+  provisioned-attr-mask bonded,operator-16,operator-17
+ !
+ ds-bonding-group D8B
+  admin-state           up
+  down-channel-set      8-15
+  provisioned-attr-mask bonded,operator-16,operator-18
+ !
+ ds-bonding-group D8C
+  admin-state           up
+  down-channel-set      16-23
+  provisioned-attr-mask bonded,operator-16,operator-19
+ !
+ ds-bonding-group D9A
+  admin-state           up
+  down-channel-set      16-23
+  provisioned-attr-mask bonded,operator-16,operator-19,operator-20
+  ofdm-channel-set      0
+ !
+ ds-bonding-group D9B
+  admin-state           up
+  down-channel-set      16-23
+  provisioned-attr-mask bonded,operator-16,operator-19,operator-21
+  ofdm-channel-set      1
+ !
+ us-bonding-group U3A
+  admin-state           up
+  us-channel-set        4-5.0
+  provisioned-attr-mask bonded,operator-16,operator-20
+  ofdma-channel-set     0
+ !
+ us-bonding-group U4A
+  admin-state           up
+  us-channel-set        0-3.0
+  provisioned-attr-mask bonded,operator-16
+ !
+ us-bonding-group U4B
+  admin-state           up
+  us-channel-set        2-5.0
+  provisioned-attr-mask bonded,operator-16
+ !
+ us-bonding-group U4C
+  admin-state           up
+  us-channel-set        1-4.0
+  provisioned-attr-mask bonded,operator-16
+ !
+ us-bonding-group U6A
+  admin-state           up
+  us-channel-set        0-5.0
+  provisioned-attr-mask bonded,operator-16
+ !
+ us-bonding-group U7A
+  admin-state           up
+  us-channel-set        0-5.0
+  provisioned-attr-mask bonded,operator-16,operator-20
+  ofdma-channel-set     0
+ !
+ load-balance downstream static docsis20 enabled
+ load-balance upstream static docsis20 disabled
+!

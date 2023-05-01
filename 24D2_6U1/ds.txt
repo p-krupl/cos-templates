@@ -1,0 +1,478 @@
+cable template ds-rf-port TKN_24DS_2OF_TV
+ admin-state             up
+ max-occupied-bw-mhz     808.0
+ tilt-adjust             0.0
+ base-channel-power-dbmv 39.0
+ down-channel 0
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         130.0
+  power-adjust-db       -0.4
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-0
+ !
+ down-channel 1
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         138.0
+  power-adjust-db       -0.4
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-1
+ !
+ down-channel 2
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         146.0
+  power-adjust-db       -0.4
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-2
+ !
+ down-channel 3
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         154.0
+  power-adjust-db       -0.4
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-3
+ !
+ down-channel 4
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         162.0
+  power-adjust-db       0.8
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-4
+ !
+ down-channel 5
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         170.0
+  power-adjust-db       0.8
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-5
+ !
+ down-channel 6
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         178.0
+  power-adjust-db       0.8
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-6
+ !
+ down-channel 7
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         186.0
+  power-adjust-db       0.8
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-7
+ !
+ down-channel 8
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         194.0
+  power-adjust-db       0.9
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-8
+ !
+ down-channel 9
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         202.0
+  power-adjust-db       0.9
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-9
+ !
+ down-channel 10
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         210.0
+  power-adjust-db       0.8
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-10
+ !
+ down-channel 11
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         218.0
+  power-adjust-db       0.9
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-11
+ !
+ down-channel 12
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         226.0
+  power-adjust-db       0.7
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-12
+ !
+ down-channel 13
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         234.0
+  power-adjust-db       0.9
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-13
+ !
+ down-channel 14
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         242.0
+  power-adjust-db       0.8
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-14
+ !
+ down-channel 15
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         250.0
+  power-adjust-db       0.8
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-15
+ !
+ down-channel 16
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         258.0
+  power-adjust-db       0.7
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-16
+ !
+ down-channel 17
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         266.0
+  power-adjust-db       0.7
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-17
+ !
+ down-channel 18
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         274.0
+  power-adjust-db       0.7
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-18
+ !
+ down-channel 19
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         282.0
+  power-adjust-db       0.6
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-19
+ !
+ down-channel 20
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         290.0
+  power-adjust-db       0.4
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-20
+ !
+ down-channel 21
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         298.0
+  power-adjust-db       0.5
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-21
+ !
+ down-channel 22
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         306.0
+  power-adjust-db       0.6
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-22
+ !
+ down-channel 23
+  admin-state           up
+  docsis-phy-profile    2
+  frequency-mhz         314.0
+  power-adjust-db       0.5
+  provisioned-attr-mask bonded,low-latency
+  qam-alias             qam-23
+ !
+ down-channel 32
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      330.0
+  power-adjust-db    0.6
+  qam-alias          dvb-32
+ !
+ down-channel 33
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      338.0
+  power-adjust-db    0.5
+  qam-alias          dvb-33
+ !
+ down-channel 34
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      346.0
+  power-adjust-db    0.6
+  qam-alias          dvb-34
+ !
+ down-channel 35
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      354.0
+  power-adjust-db    0.3
+  qam-alias          dvb-35
+ !
+ down-channel 36
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      362.0
+  power-adjust-db    0.5
+  qam-alias          dvb-36
+ !
+ down-channel 37
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      370.0
+  power-adjust-db    0.6
+  qam-alias          dvb-37
+ !
+ down-channel 38
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      378.0
+  power-adjust-db    0.4
+  qam-alias          dvb-38
+ !
+ down-channel 39
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      386.0
+  power-adjust-db    0.5
+  qam-alias          dvb-39
+ !
+ down-channel 40
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      402.0
+  power-adjust-db    0.4
+  qam-alias          dvb-40
+ !
+ down-channel 41
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      410.0
+  power-adjust-db    0.5
+  qam-alias          dvb-41
+ !
+ down-channel 42
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      418.0
+  power-adjust-db    0.6
+  qam-alias          dvb-42
+ !
+ down-channel 43
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      426.0
+  power-adjust-db    0.6
+  qam-alias          dvb-43
+ !
+ down-channel 44
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      442.0
+  power-adjust-db    0.5
+  qam-alias          dvb-44
+ !
+ down-channel 45
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      450.0
+  power-adjust-db    0.5
+  qam-alias          dvb-45
+ !
+ down-channel 46
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      458.0
+  power-adjust-db    0.4
+  qam-alias          dvb-46
+ !
+ down-channel 47
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      466.0
+  power-adjust-db    0.3
+  qam-alias          dvb-47
+ !
+ down-channel 48
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      474.0
+  power-adjust-db    0.3
+  qam-alias          dvb-48
+ !
+ down-channel 49
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      482.0
+  power-adjust-db    0.3
+  qam-alias          dvb-49
+ !
+ down-channel 50
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      490.0
+  power-adjust-db    0.2
+  qam-alias          dvb-50
+ !
+ down-channel 51
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      530.0
+  power-adjust-db    -0.1
+  qam-alias          dvb-51
+ !
+ down-channel 52
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      538.0
+  power-adjust-db    0.0
+  qam-alias          dvb-52
+ !
+ down-channel 53
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      546.0
+  power-adjust-db    0.0
+  qam-alias          dvb-53
+ !
+ down-channel 54
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      602.0
+  power-adjust-db    -0.1
+  qam-alias          dvb-54
+ !
+ down-channel 55
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      610.0
+  power-adjust-db    -0.1
+  qam-alias          dvb-55
+ !
+ down-channel 56
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      618.0
+  power-adjust-db    -0.1
+  qam-alias          dvb-56
+ !
+ down-channel 57
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      634.0
+  power-adjust-db    -0.1
+  qam-alias          dvb-57
+ !
+ down-channel 58
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      650.0
+  power-adjust-db    0.0
+  qam-alias          dvb-58
+ !
+ down-channel 59
+  admin-state        up
+  docsis-phy-profile 3
+  frequency-mhz      682.0
+  power-adjust-db    -0.1
+  qam-alias          dvb-59
+ !
+ ofdm-channel 0
+  admin-state            up
+  rf-mute                disabled
+  power-adjust-db        0.3
+  lower-bdry-freq-mhz    822.0
+  upper-bdry-freq-mhz    1014.0
+  plc-blk-freq-mhz       830.0
+  cyclic-prefix          256
+  rolloff-period         128
+  time-interleaver-depth 16
+  subcarrier-spacing     50khz
+  pilot-scale-factor     48
+  lower-guard-band-index 1
+  upper-guard-band-index 2
+  auto-profile-change    enabled
+  query-period-sec       20
+  query-load-percent     1.0
+  default-profile        control
+  unfit-profile-mins     0
+  profile control
+   default-modulation qam256
+   hysteresis-db      1.0
+  !
+  profile data-1
+   default-modulation qam1024
+   hysteresis-db      1.0
+  !
+  profile data-2
+   default-modulation qam2048
+   hysteresis-db      1.0
+  !
+  profile data-3
+   default-modulation qam4096
+   hysteresis-db      1.0
+  !
+  profile ncp
+   default-modulation qam16
+  !
+ !
+ ofdm-channel 1
+  admin-state            up
+  rf-mute                disabled
+  power-adjust-db        1.2
+  lower-bdry-freq-mhz    1018.0
+  upper-bdry-freq-mhz    1210.0
+  plc-blk-freq-mhz       1096.0
+  cyclic-prefix          256
+  rolloff-period         128
+  time-interleaver-depth 16
+  subcarrier-spacing     50khz
+  pilot-scale-factor     48
+  lower-guard-band-index 1
+  upper-guard-band-index 2
+  auto-profile-change    enabled
+  query-period-sec       20
+  query-load-percent     1.0
+  default-profile        control
+  unfit-profile-mins     0
+  profile control
+   default-modulation qam256
+   hysteresis-db      1.0
+  !
+  profile data-1
+   default-modulation qam1024
+   hysteresis-db      1.0
+  !
+  profile data-2
+   default-modulation qam2048
+   hysteresis-db      1.0
+  !
+  profile data-3
+   default-modulation qam4096
+   hysteresis-db      1.0
+  !
+  profile ncp
+   default-modulation qam16
+  !
+ !
+ oob-channel 0
+  frequency-mhz 97.75
+  bandwidth-mhz 25.6
+  type          ndf
+  oob-core-id   0
+ !
+!
