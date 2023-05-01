@@ -128,7 +128,7 @@ cable template us-rf-port TKN_6US_2OF
   tafdm         enabled
   tafdm guard-freq-hz 400000
   ofdma-prof-mgmt mer-margin-db 3.0 mer-hysteresis-db 3.0 corrected-fec-pct 20 ignored-mslot-pct 10 no-data-energy-pct 100
-  pre-equalization enabled
+  pre-equalization disabled
   power-adjust-db       0.0
  !
  ofdma-channel 1
@@ -140,7 +140,7 @@ cable template us-rf-port TKN_6US_2OF
   modulation-profile    401
   transmit-backoff 3 7
   ofdma-prof-mgmt mer-margin-db 3.0 mer-hysteresis-db 3.0 corrected-fec-pct 20 ignored-mslot-pct 10 no-data-energy-pct 100
-  pre-equalization enabled
+  pre-equalization disabled
   power-adjust-db       0.0
  !
 !
