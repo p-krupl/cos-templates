@@ -106,4 +106,6 @@ cable template mac-domain MD_16D2_6U2
   provisioned-attr-mask bonded,operator-16,operator-20,operator-21
   ofdma-channel-set     0-1
  !
+ load-balance downstream static docsis20 enabled
+ load-balance upstream static docsis20 enabled
 !

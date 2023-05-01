@@ -134,5 +134,5 @@ cable template mac-domain MD_24D2_6U1
   ofdma-channel-set     0
  !
  load-balance downstream static docsis20 enabled
- load-balance upstream static docsis20 disabled
+ load-balance upstream static docsis20 enabled
 !
