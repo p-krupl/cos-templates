@@ -117,10 +117,11 @@ cable template us-rf-port TKN_6US_2OF
    ranging-backoff 3 8
   !
  !
+ ofdma-exclusion-block-mhz 49.25 50.75
  ofdma-channel 0
   admin-state           up
   provisioned-attr-mask operator-20
-  frequency-range-mhz 20.75 84.0
+  frequency-range-mhz 20.75 64.0
   target-power-density  4.0
   ranging-backoff 2 6
   modulation-profile    401

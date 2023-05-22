@@ -1,6 +1,6 @@
 cable template mac-domain MD_16D2_6U2
- ds-primary-set           0,8
- ds-non-primary-set       1-7,9-15
+ ds-primary-set           0,4,8,12
+ ds-non-primary-set       1-3,5-7,9-11,13
  us-phy-channel-set       0-5
  admin-state              up
  bundle                   1
@@ -30,27 +30,40 @@ cable template mac-domain MD_16D2_6U2
  dbc-ds-partial-recovery holdoff-interval-sec 600
  dbc-us-partial-recovery disabled
  dbc-us-partial-recovery retry-period-sec 600
- ds-bonding-group D16A
+ diplexer-band-edge control disabled
+ ds-bonding-group D14A
   admin-state           up
-  down-channel-set      0-15
+  down-channel-set      0-13
   provisioned-attr-mask bonded,operator-16,operator-17,operator-19
  !
- ds-bonding-group D17A
+ ds-bonding-group D15A
   admin-state           up
-  down-channel-set      0-15
+  down-channel-set      0-13
   provisioned-attr-mask bonded,operator-16,operator-17,operator-19,operator-20
   ofdm-channel-set      0
  !
- ds-bonding-group D17B
+ ds-bonding-group D15B
   admin-state           up
-  down-channel-set      0-15
+  down-channel-set      0-13
   provisioned-attr-mask bonded,operator-16,operator-17,operator-19,operator-21
   ofdm-channel-set      1
  !
- ds-bonding-group D18A
+ ds-bonding-group D16A
   admin-state           up
-  down-channel-set      0-15
+  down-channel-set      0-13
   provisioned-attr-mask bonded,operator-16,operator-17,operator-19,operator-20,operator-21
+  ofdm-channel-set      0-1
+ !
+  ds-bonding-group D10A
+  admin-state           up
+  down-channel-set      0-7
+  provisioned-attr-mask bonded,operator-16,operator-19,operator-20,operator-21
+  ofdm-channel-set      0-1
+ !
+  ds-bonding-group D10B
+  admin-state           up
+  down-channel-set      6-13
+  provisioned-attr-mask bonded,operator-17,operator-19,operator-20,operator-21
   ofdm-channel-set      0-1
  !
  ds-bonding-group D8A
@@ -60,7 +73,7 @@ cable template mac-domain MD_16D2_6U2
  !
  ds-bonding-group D8B
   admin-state           up
-  down-channel-set      8-15
+  down-channel-set      6-13
   provisioned-attr-mask bonded,operator-16,operator-19
  !
  us-bonding-group U2A
