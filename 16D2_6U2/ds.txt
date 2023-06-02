@@ -2,116 +2,117 @@ cable template ds-rf-port TKN_16DS_2OF_TV
  admin-state             up
  max-occupied-bw-mhz     808.0
  base-channel-power-dbmv 39.0
+ tilt-pivot-freq-mhz     1218.0
  down-channel 0
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         266.0
-  power-adjust-db       0.5
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.0
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-0
  !
  down-channel 1
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         274.0
-  power-adjust-db       0.5
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.0
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-1
  !
  down-channel 2
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         282.0
-  power-adjust-db       0.5
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.1
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-2
  !
  down-channel 3
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         290.0
-  power-adjust-db       0.3
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.2
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-3
  !
  down-channel 4
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         298.0
-  power-adjust-db       0.3
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.5
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-4
  !
  down-channel 5
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         306.0
-  power-adjust-db       0.3
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.5
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-5
  !
  down-channel 6
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         314.0
-  power-adjust-db       0.3
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.5
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-6
  !
  down-channel 7
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         322.0
-  power-adjust-db       0.2
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-17
+  power-adjust-db       -1.5
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-7
  !
  down-channel 8
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         714.0
-  power-adjust-db       -0.7
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  power-adjust-db       -1.5
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-8
  !
  down-channel 9
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         722.0
-  power-adjust-db       -0.9
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  power-adjust-db       -1.5
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-9
  !
  down-channel 10
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         730.0
-  power-adjust-db       -1.0
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  power-adjust-db       -1.5
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-10
  !
  down-channel 11
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         738.0
-  power-adjust-db       -1.0
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  power-adjust-db       -1.4
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-11
  !
  down-channel 12
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         746.0
-  power-adjust-db       -0.9
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  power-adjust-db       -1.1
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-12
  !
  down-channel 13
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         754.0
-  power-adjust-db       -0.8
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  power-adjust-db       -1.0
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-13
  !
  down-channel 14
@@ -119,22 +120,22 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   docsis-phy-profile    2
   frequency-mhz         762.0
   power-adjust-db       -0.9
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-14
  !
  down-channel 15
   admin-state           up
   docsis-phy-profile    2
   frequency-mhz         770.0
-  power-adjust-db       -0.8
-  provisioned-attr-mask bonded,low-latency,operator-16,operator-19
+  power-adjust-db       -1.0
+  provisioned-attr-mask bonded,low-latency
   qam-alias             d30-15
  !
  down-channel 32
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         330.0
-  power-adjust-db       0.2
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-32
  !
@@ -142,7 +143,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         338.0
-  power-adjust-db       0.3
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-33
  !
@@ -150,7 +151,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         346.0
-  power-adjust-db       0.4
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-34
  !
@@ -158,7 +159,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         354.0
-  power-adjust-db       0.3
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-35
  !
@@ -166,7 +167,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         362.0
-  power-adjust-db       0.3
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-36
  !
@@ -174,7 +175,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         370.0
-  power-adjust-db       0.2
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-37
  !
@@ -182,7 +183,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         378.0
-  power-adjust-db       0.2
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-38
  !
@@ -190,7 +191,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         386.0
-  power-adjust-db       0.1
+  power-adjust-db       -1.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-39
  !
@@ -198,6 +199,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         402.0
+  power-adjust-db       -1.4
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-40
  !
@@ -205,7 +207,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         410.0
-  power-adjust-db       0.1
+  power-adjust-db       -1.4
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-41
  !
@@ -213,7 +215,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         418.0
-  power-adjust-db       0.1
+  power-adjust-db       -1.4
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-42
  !
@@ -221,7 +223,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         426.0
-  power-adjust-db       0.1
+  power-adjust-db       -1.4
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-43
  !
@@ -229,7 +231,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         442.0
-  power-adjust-db       0.1
+  power-adjust-db       -1.7
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-44
  !
@@ -237,7 +239,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         450.0
-  power-adjust-db       0.1
+  power-adjust-db       -1.7
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-45
  !
@@ -245,7 +247,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         458.0
-  power-adjust-db       0.1
+  power-adjust-db       -1.7
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-46
  !
@@ -253,7 +255,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         466.0
-  power-adjust-db       0.2
+  power-adjust-db       -1.9
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-47
  !
@@ -261,7 +263,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         474.0
-  power-adjust-db       0.2
+  power-adjust-db       -1.9
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-48
  !
@@ -269,7 +271,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         482.0
-  power-adjust-db       0.3
+  power-adjust-db       -1.9
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-49
  !
@@ -277,7 +279,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         490.0
-  power-adjust-db       0.3
+  power-adjust-db       -1.9
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-50
  !
@@ -285,7 +287,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         530.0
-  power-adjust-db       0.1
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-51
  !
@@ -293,7 +295,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         538.0
-  power-adjust-db       0.1
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-52
  !
@@ -301,7 +303,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         546.0
-  power-adjust-db       0.1
+  power-adjust-db       -2.2
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-53
  !
@@ -309,7 +311,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         602.0
-  power-adjust-db       -0.2
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-54
  !
@@ -317,7 +319,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         610.0
-  power-adjust-db       -0.2
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-55
  !
@@ -325,7 +327,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         618.0
-  power-adjust-db       -0.2
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-56
  !
@@ -333,7 +335,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         634.0
-  power-adjust-db       -0.2
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-57
  !
@@ -341,7 +343,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         650.0
-  power-adjust-db       -0.2
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-58
  !
@@ -349,14 +351,14 @@ cable template ds-rf-port TKN_16DS_2OF_TV
   admin-state           up
   docsis-phy-profile    3
   frequency-mhz         682.0
-  power-adjust-db       -0.2
+  power-adjust-db       -2.0
   provisioned-attr-mask bonded,low-latency
   qam-alias             dvb-59
  !
  ofdm-channel 0
   admin-state            up
   rf-mute                disabled
-  power-adjust-db        0.4
+  power-adjust-db        0.3
   lower-bdry-freq-mhz    822.0
   upper-bdry-freq-mhz    1014.0
   plc-blk-freq-mhz       830.0
@@ -395,7 +397,7 @@ cable template ds-rf-port TKN_16DS_2OF_TV
  ofdm-channel 1
   admin-state            up
   rf-mute                disabled
-  power-adjust-db        0.8
+  power-adjust-db        0.3
   lower-bdry-freq-mhz    1018.0
   upper-bdry-freq-mhz    1210.0
   plc-blk-freq-mhz       1096.0
