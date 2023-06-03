@@ -1,7 +1,8 @@
 cable template ds-rf-port TKN_16DS_2OF_TV
  admin-state             up
  max-occupied-bw-mhz     808.0
- base-channel-power-dbmv 39.0
+ tilt-adjust             7.0
+ base-channel-power-dbmv 45.0
  tilt-pivot-freq-mhz     1218.0
  down-channel 0
   admin-state           up
