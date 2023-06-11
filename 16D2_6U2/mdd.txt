@@ -1,6 +1,7 @@
+no cable template mac-domain MD_16D2_6U2
 cable template mac-domain MD_16D2_6U2
- ds-primary-set           0,4,8,12
- ds-non-primary-set       1-3,5-7,9-11,13
+ ds-primary-set           3,7,11,13
+ ds-non-primary-set       0-2,4-6,8-10,12
  us-phy-channel-set       0-5
  admin-state              up
  bundle                   1
@@ -62,24 +63,19 @@ cable template mac-domain MD_16D2_6U2
  !
   ds-bonding-group D10B
   admin-state           up
-  down-channel-set      6-13
+  down-channel-set      8-13
   provisioned-attr-mask bonded,operator-17,operator-19,operator-20,operator-21
   ofdm-channel-set      0-1
+ !
+ ds-bonding-group D6A
+  admin-state           up
+  down-channel-set      8-13
+  provisioned-attr-mask bonded,operator-16,operator-19
  !
  ds-bonding-group D8A
   admin-state           up
   down-channel-set      0-7
   provisioned-attr-mask bonded,operator-16,operator-17
- !
- ds-bonding-group D8B
-  admin-state           up
-  down-channel-set      6-13
-  provisioned-attr-mask bonded,operator-16,operator-19
- !
- us-bonding-group U2A
-  admin-state           up
-  provisioned-attr-mask bonded,operator-20,operator-21
-  ofdma-channel-set     0-1
  !
  us-bonding-group U4A
   admin-state           up

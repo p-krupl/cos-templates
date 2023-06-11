@@ -1,3 +1,4 @@
+no cable template ds-rf-port TKN_16DS_2OF_TV
 cable template ds-rf-port TKN_16DS_2OF_TV
  admin-state             up
  max-occupied-bw-mhz     808.0
