@@ -1,7 +1,7 @@
 no cable template us-rf-port TKN_6US_2OF
 cable template us-rf-port TKN_6US_2OF
  admin-state               up
- plant-length-km 20
+ plant-length-km 30
  base-target-rx-power-dbmv 0.0
  us-phy-channel 0
   admin-state    up
