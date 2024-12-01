@@ -30,3 +30,67 @@ cable mod-prof-ofdma 451
   pilot-pattern 1
  !
 !
+cable mod-prof-ofdma 452
+ subcarrier-spacing     50khz
+ cyclic-prefix-samples  192
+ rolloff-period-samples 64
+ symbols-per-frame      16
+ initial-ranging guard-subcarriers 32 subcarriers 32 preamble-multiplier 4
+ fine-ranging guard-subcarriers 34 subcarriers 192
+ data-iuc 6
+  modulation    qam64
+  pilot-pattern 2
+ !
+ data-iuc 9
+  modulation    qam128
+  pilot-pattern 2
+ !
+ data-iuc 10
+  modulation    qam256
+  pilot-pattern 2
+ !
+ data-iuc 11
+  modulation    qam512
+  pilot-pattern 2
+ !
+ data-iuc 12
+  modulation    qam1024
+  pilot-pattern 2
+ !
+ data-iuc 13
+  modulation    qam16
+  pilot-pattern 2
+ !
+!
+cable mod-prof-ofdma 453
+ subcarrier-spacing     50khz
+ cyclic-prefix-samples  320
+ rolloff-period-samples 64
+ symbols-per-frame      16
+ initial-ranging guard-subcarriers 32 subcarriers 32 preamble-multiplier 4
+ fine-ranging guard-subcarriers 34 subcarriers 192
+ data-iuc 6
+  modulation    qam64
+  pilot-pattern 2
+ !
+ data-iuc 9
+  modulation    qam128
+  pilot-pattern 2
+ !
+ data-iuc 10
+  modulation    qam256
+  pilot-pattern 2
+ !
+ data-iuc 11
+  modulation    qam512
+  pilot-pattern 2
+ !
+ data-iuc 12
+  modulation    qam1024
+  pilot-pattern 2
+ !
+ data-iuc 13
+  modulation    qam16
+  pilot-pattern 2
+ !
+!

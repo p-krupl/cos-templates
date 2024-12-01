@@ -1,0 +1,136 @@
+no cable template us-rf-port TKN_6US_2OF
+cable template us-rf-port TKN_6US_2OF
+ admin-state               up
+ plant-length-km           20
+ base-target-rx-power-dbmv 0.0
+ us-phy-channel 0
+  admin-state    up
+  frequency-mhz  27.0
+  power-level-db 10.0
+  width-mhz      6.400
+  us-logical-channel 0
+   admin-state           up
+   docsis-channel-id     0
+   ingress-cancellation enabled
+   ingress-cancellation interval-msec 100
+   modulation-profile 1 secondary 3 tertiary 4
+   pre-equalization enabled scale-exp 2
+   provisioned-attr-mask operator-16
+   slot-size             2
+   transmit-backoff 2 6
+   us-channel-type       atdma
+   ranging-backoff 3 8
+  !
+ !
+ us-phy-channel 1
+  admin-state    up
+  frequency-mhz  33.5
+  power-level-db 10.0
+  width-mhz      6.400
+  us-logical-channel 0
+   admin-state           up
+   docsis-channel-id     0
+   ingress-cancellation enabled
+   ingress-cancellation interval-msec 100
+   modulation-profile 1 secondary 3 tertiary 4
+   pre-equalization enabled scale-exp 2
+   provisioned-attr-mask operator-16
+   slot-size             2
+   transmit-backoff 2 6
+   us-channel-type       atdma
+   ranging-backoff 3 8
+  !
+ !
+ us-phy-channel 2
+  admin-state    up
+  frequency-mhz  40.0
+  power-level-db 10.0
+  width-mhz      6.400
+  us-logical-channel 0
+   admin-state           up
+   docsis-channel-id     0
+   ingress-cancellation enabled
+   ingress-cancellation interval-msec 100
+   modulation-profile 1 secondary 3 tertiary 4
+   pre-equalization enabled scale-exp 2
+   provisioned-attr-mask operator-16
+   slot-size             2
+   transmit-backoff 2 6
+   us-channel-type       atdma
+   ranging-backoff 3 8
+  !
+ !
+ us-phy-channel 3
+  admin-state    up
+  frequency-mhz  46.5
+  power-level-db 10.0
+  width-mhz      6.400
+  us-logical-channel 0
+   admin-state           up
+   docsis-channel-id     0
+   ingress-cancellation enabled
+   ingress-cancellation interval-msec 100
+   modulation-profile 1 secondary 3 tertiary 4
+   pre-equalization enabled scale-exp 2
+   provisioned-attr-mask operator-16
+   slot-size             2
+   transmit-backoff 2 6
+   us-channel-type       atdma
+   ranging-backoff 3 8
+  !
+ !
+ us-phy-channel 4
+  admin-state    up
+  frequency-mhz  53.5
+  power-level-db 10.0
+  width-mhz      6.400
+  us-logical-channel 0
+   admin-state           up
+   docsis-channel-id     0
+   ingress-cancellation enabled
+   ingress-cancellation interval-msec 100
+   modulation-profile 1 secondary 3 tertiary 4
+   pre-equalization enabled scale-exp 2
+   provisioned-attr-mask operator-16
+   slot-size             2
+   transmit-backoff 2 6
+   us-channel-type       atdma
+   ranging-backoff 3 8
+  !
+ !
+ us-phy-channel 5
+  admin-state    up
+  frequency-mhz  60.0
+  power-level-db 10.0
+  width-mhz      6.400
+  us-logical-channel 0
+   admin-state           up
+   docsis-channel-id     0
+   ingress-cancellation enabled
+   ingress-cancellation interval-msec 100
+   modulation-profile 1 secondary 3 tertiary 4
+   pre-equalization enabled scale-exp 2
+   provisioned-attr-mask operator-16
+   slot-size             2
+   transmit-backoff 2 6
+   up-down-trap          enabled
+   us-channel-type       atdma
+   ranging-backoff 3 8
+  !
+ !
+ ofdma-exclusion-block-mhz 49.25 50.75
+ ofdma-channel 0
+  admin-state           up
+  provisioned-attr-mask operator-20
+  frequency-range-mhz 20.75 65.0
+  target-power-density  4.0
+  ranging-backoff 2 6
+  modulation-profile    452
+  transmit-backoff 3 7
+  tafdm         enabled
+  tafdm guard-freq-hz 400000
+  ofdma-prof-mgmt mer-margin-db 3.0 mer-hysteresis-db 3.0 corrected-fec-pct 20 ignored-mslot-pct 10 no-data-energy-pct 100
+  pre-equalization enabled
+  power-adjust-db       0.0
+ !
+!
