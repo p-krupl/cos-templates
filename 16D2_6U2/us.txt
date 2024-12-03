@@ -1,7 +1,7 @@
 no cable template us-rf-port TKN_6US_2OF
 cable template us-rf-port TKN_6US_2OF
  admin-state               up
- plant-length-km 30
+ plant-length-km 20
  base-target-rx-power-dbmv 0.0
  us-phy-channel 0
   admin-state    up
@@ -125,7 +125,7 @@ cable template us-rf-port TKN_6US_2OF
   frequency-range-mhz 20.75 65.0
   target-power-density  4.0
   ranging-backoff 2 6
-  modulation-profile    451
+  modulation-profile    452
   transmit-backoff 3 7
   tafdm         enabled
   tafdm guard-freq-hz 400000
@@ -139,7 +139,7 @@ cable template us-rf-port TKN_6US_2OF
   frequency-range-mhz 110.0 204.0
   target-power-density  4.0
   ranging-backoff 2 6
-  modulation-profile    451
+  modulation-profile    452
   transmit-backoff 3 7
   ofdma-prof-mgmt mer-margin-db 3.0 mer-hysteresis-db 3.0 corrected-fec-pct 20 ignored-mslot-pct 10 no-data-energy-pct 100
   pre-equalization enabled
